@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rclone-sync — personal Google Drive file sync</title>
+  <style>
+    :root { --fg:#1d1d1f; --muted:#6e6e73; --line:#e5e5e7 }
+    body { margin:0; padding:48px 20px; font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg) }
+    main { max-width:720px; margin:0 auto }
+    h1 { font-size:28px; margin:0 0 8px }
+    p.lead { color:var(--muted); margin-top:0 }
+    h2 { font-size:18px; margin-top:32px }
+    ul { padding-left:20px }
+    footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px }
+    a { color:#0b57d0 }
+  </style>
+</head>
+<body>
+<main>
+  <h1>rclone-sync</h1>
+  <p class="lead">A personal-use tool that keeps one folder on my computer in sync with my own Google Drive,
+  using <a href="https://rclone.org/">rclone</a> and the Google Drive API.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Connects to my own Google Drive account with my own OAuth client (this app).</li>
+    <li>Uploads new or changed files from my computer to my Google Drive, and downloads changes made elsewhere
+        (phone, web) back to my computer.</li>
+    <li>Runs automatically on a timer, roughly every 15 minutes, on my personal computer only.</li>
+  </ul>
+
+  <h2>Who uses it</h2>
+  <p>Only me — a single personal user, on my own machine, on my own Drive account. It is not offered to the
+  public, has no sign-up, and is not installed by anyone else.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="./privacy.html">Privacy Policy</a>. Summary: no data is collected, stored, shared or sold
+  by this application — files stay between my computer and my own Google Drive.</p>
+
+  <h2>Contact</h2>
+  <p>hoang.vmsn@gmail.com</p>
+
+  <footer>
+    Vietnamese: rclone-sync là công cụ cá nhân, chỉ dùng để đồng bộ một thư mục trên máy tính của tôi với Google Drive
+    của chính tôi. Không thu thập, không chia sẻ dữ liệu của bất kỳ ai.
+  </footer>
+</main>
+</body>
+</html>
